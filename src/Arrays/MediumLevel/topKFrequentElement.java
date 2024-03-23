@@ -1,9 +1,6 @@
 package Arrays.MediumLevel;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 public class topKFrequentElement {
     public static void main(String[] args) {
@@ -28,12 +25,15 @@ public class topKFrequentElement {
                 map.put(ar[i], map.getOrDefault(ar[i], 0) + 1);
             }
         }
-        List<Integer>list=new ArrayList<>(map.keySet());
-        list.sort((a, b) -> map.get(b) - map.get(a));
-        int res[] = new int[k];
-        for (int i = 0; i < k; ++i)
-            res[i] = list.get(i);
-        return res;
+        PriorityQueue<Map.Entry<Integer,Integer>>queue=new PriorityQueue<>((a,b)->b.getValue()-a.getValue());
+        for(Map.Entry<Integer,Integer>key:map.entrySet()){
+            queue.add(key);
+        }
+        int an[]=new int[k];
+        for(int i=0;i<k;i++){
+            an[i]=queue.poll().getKey();
+        }
+        return an;
 //        List<Integer> list=new ArrayList<>();
 //
 //        for(Integer key: map.keySet()){
