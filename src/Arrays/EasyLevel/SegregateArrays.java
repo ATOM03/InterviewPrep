@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.EasyLevel;
 
 //You are given an array of 0s and 1s in random order. Segregate 0s on left side and 1s on right side of the array [Basically you have to sort the array]. Traverse array only once.
 //
