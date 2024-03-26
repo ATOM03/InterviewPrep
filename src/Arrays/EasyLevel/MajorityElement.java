@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.EasyLevel;
 
 //Given an array nums of size n, return the majority element.
 //
