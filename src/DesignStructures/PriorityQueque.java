@@ -1,5 +1,7 @@
 package DesignStructures;
 
+//Design a priorityQueque using arrays
+
 public class PriorityQueque {
     public static void main(String[] args) {
         PriorityQueue pq=new PriorityQueue();
