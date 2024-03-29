@@ -6,10 +6,11 @@ import java.util.List;
 public class EncodeAndDecodeStrings {
     public static void main(String[] args) {
        List<String >list=new ArrayList<>();
-       list.add("neet");
-       list.add("code");
-       list.add("love");
-       list.add("you");
+       list.add("we");
+       list.add("say");
+       list.add(":");
+       list.add("yes");
+       list.add("!@#$%^&*()");
 
         String encode=encodeString(list);
         System.out.println(encode);
@@ -22,9 +23,10 @@ public class EncodeAndDecodeStrings {
         List<String>list=new ArrayList<>();
 
         while(encode.length()!=0){
-            int stringlength=Integer.parseInt(encode.charAt(0)+"");
+            int slice=encode.indexOf('#',1);
+            int stringlength=Integer.parseInt(encode.substring(0,slice));
             if(encode.charAt(1)=='#'){
-                String originalString=encode.substring(2,2+stringlength);
+                String originalString=encode.substring(slice,slice+stringlength);
                 list.add(originalString);
             }
             encode=encode.substring(stringlength+2);
