@@ -21,16 +21,16 @@ public class EncodeAndDecodeStrings {
 
     private static List<String> decode(String encode) {
         List<String>list=new ArrayList<>();
-
-        while(encode.length()!=0){
-            int slice=encode.indexOf('#',1);
-            int stringlength=Integer.parseInt(encode.substring(0,slice));
-            if(encode.charAt(1)=='#'){
-                String originalString=encode.substring(slice,slice+stringlength);
-                list.add(originalString);
+        int i=0;
+        while(i<encode.length()){
+            int slice=encode.indexOf('#',i);
+            int stringlength=Integer.parseInt(encode.substring(i,slice));
+            String originalString=encode.substring(slice+1,slice+stringlength+1);
+            list.add(originalString);
+            i=slice+stringlength+1;
             }
-            encode=encode.substring(stringlength+2);
-        }
+
+
 
         return list;
 
