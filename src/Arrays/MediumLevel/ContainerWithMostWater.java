@@ -14,7 +14,24 @@ package Arrays.MediumLevel;
 public class ContainerWithMostWater {
     public static void main(String[] args) {
         int height[]={1,8,6,2,5,4,8,3,7};
-        System.out.println(area(height));
+//        System.out.println(area(height));
+        System.out.println(areaoptimal(height));
+    }
+
+    private static int areaoptimal(int[] height) {
+        int res=0;
+        int l=0,r=height.length-1;
+
+        while(l<r){
+            int area=(r-l)*Math.min(height[r],height[l]);
+            res=Math.max(area,res);
+
+            if(height[l]<height[r])
+                l++;
+            else
+                r--;
+        }
+        return res;
     }
 
     //brute force method, time complexity will be o(n^2)
