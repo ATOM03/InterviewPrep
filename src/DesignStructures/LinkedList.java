@@ -27,12 +27,26 @@ public class LinkedList {
         size++;
     }
 
+    private void addLast(int data) {
+        Node node=new Node(data);
+        if(size==0 || this.head==null)
+            addFist(data);
+        else{
+            tail.next=node;
+            this.tail=node;
+        }
+        size++;
+    }
+    private int sizeofLL(){
+        return size;
+    }
     private void printlist() {
         Node node=this.head;
         while(node!=null){
-            System.out.print(node.data+"->");
+            System.out.print(node.data+" ");
             node=node.next;
         }
+        System.out.println();
     }
 
 
@@ -41,7 +55,11 @@ public class LinkedList {
 
         list.addFist(4);
         list.addFist(5);
+        list.addLast(6);
+        list.addFist(7);
+        list.addLast(8);
         list.printlist();
+        System.out.println(list.sizeofLL());
     }
 
 
