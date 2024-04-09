@@ -1,4 +1,4 @@
-package Arrays;
+package DesignStructures;
 /*
 Design a HashMap without using any built-in hash table libraries.
 
