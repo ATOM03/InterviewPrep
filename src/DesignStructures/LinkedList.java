@@ -55,6 +55,18 @@ public class LinkedList {
         }
     }
 
+    private void deleteLast(){
+        Node end=this.head;
+        Node prev=null;
+
+        while(end.next!=null){
+            prev=end;
+            end=end.next;
+        }
+        prev.next=null;
+        size--;
+    }
+
 
     public static void main(String[] args) {
         LinkedList list=new LinkedList();
@@ -66,6 +78,8 @@ public class LinkedList {
         list.addLast(8);
         list.printlist();
         list.deleteFirst();
+        list.printlist();
+        list.deleteLast();
         list.printlist();
         System.out.println(list.sizeofLL());
     }
