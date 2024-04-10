@@ -87,7 +87,7 @@
     "Application.topKFrequentElement.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#22 on LinkList",
+    "git-widget-placeholder": "LinkList",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/InterviewPrepartion",
@@ -396,7 +396,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712671698250</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Working on the Arrays.">
+      <option name="closed" value="true" />
+      <created>1712690504757</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1712690504757</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Working on the Arrays.">
+      <option name="closed" value="true" />
+      <created>1712757356755</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1712757356755</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

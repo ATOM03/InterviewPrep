@@ -48,6 +48,24 @@ public class LinkedList {
         }
         System.out.println();
     }
+    private void deleteFirst(){
+        if(size>1){
+            this.head=head.next;
+            size--;
+        }
+    }
+
+    private void deleteLast(){
+        Node end=this.head;
+        Node prev=null;
+
+        while(end.next!=null){
+            prev=end;
+            end=end.next;
+        }
+        prev.next=null;
+        size--;
+    }
 
 
     public static void main(String[] args) {
@@ -58,6 +76,10 @@ public class LinkedList {
         list.addLast(6);
         list.addFist(7);
         list.addLast(8);
+        list.printlist();
+        list.deleteFirst();
+        list.printlist();
+        list.deleteLast();
         list.printlist();
         System.out.println(list.sizeofLL());
     }
