@@ -80,6 +80,17 @@ public class LinkedList {
         }
         this.head=prev;
     }
+    private void mergeList(LinkedList list1, LinkedList list2) {
+//        Node head1=list1.head;
+//        Node head2=list2.head;
+//
+//        while(head1!=null || head2!=null){
+//
+//            if()
+//        }
+
+
+    }
     public static void main(String[] args) {
         LinkedList list=new LinkedList();
 
@@ -95,14 +106,27 @@ public class LinkedList {
 
 
         //Reverse a linklist
-        list.addLast(1);
-        list.addLast(2);
-        list.addLast(3);
-        list.addLast(4);
-        list.addLast(5);
-        list.printlist();
-        list.reverse();
-        list.printlist();
+//        list.addLast(1);
+//        list.addLast(2);
+//        list.addLast(3);
+//        list.addLast(4);
+//        list.addLast(5);
+//        list.printlist();
+//        list.reverse();
+//        list.printlist();
+
+        LinkedList merge=new LinkedList();
+        LinkedList list1=new LinkedList();
+        LinkedList list2=new LinkedList();
+        list1.addLast(1);
+        list1.addLast(2);
+        list1.addLast(4);
+
+        list2.addLast(1);
+        list2.addLast(3);
+        list2.addLast(4);
+
+        merge.mergeList(list1,list2);
         System.out.println(list.sizeofLL());
     }
 

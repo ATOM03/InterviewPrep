@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4451ceb6-89c0-4c35-852b-40b977e240d3" name="Changes" comment="Working on the Arrays.">
+    <list default="true" id="4451ceb6-89c0-4c35-852b-40b977e240d3" name="Changes" comment="Working on the Linkedlist.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignStructures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignStructures/LinkedList.java" afterDir="false" />
     </list>
@@ -420,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712772950879</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Working on the Linkedlist.">
+      <option name="closed" value="true" />
+      <created>1713192305274</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713192305274</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +464,8 @@
     <MESSAGE value="Working on the Array." />
     <MESSAGE value="Working on the Strings." />
     <MESSAGE value="Working on the Arrays." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on the Arrays." />
+    <MESSAGE value="Working on the Linkedlist." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the Linkedlist." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -483,13 +492,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DesignStructures/LinkedList.java</url>
-          <line>105</line>
+          <line>130</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DesignStructures/LinkedList.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
