@@ -34,8 +34,8 @@ public class LinkedList {
         else{
             tail.next=node;
             this.tail=node;
+            size++;
         }
-        size++;
     }
     private int sizeofLL(){
         return size;
@@ -67,19 +67,41 @@ public class LinkedList {
         size--;
     }
 
+    private void reverse() {
+        Node prev=null;
+        Node next=null;
+        Node curr=this.head;
 
+        while(curr!=null){
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        this.head=prev;
+    }
     public static void main(String[] args) {
         LinkedList list=new LinkedList();
 
-        list.addFist(4);
-        list.addFist(5);
-        list.addLast(6);
-        list.addFist(7);
-        list.addLast(8);
+//        list.addFist(4);
+//        list.addFist(5);
+//        list.addLast(6);
+//        list.addFist(7);
+//        list.addLast(8);
+//        list.printlist();
+//        list.deleteFirst();
+//        list.printlist();
+//        list.deleteLast();
+
+
+        //Reverse a linklist
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(3);
+        list.addLast(4);
+        list.addLast(5);
         list.printlist();
-        list.deleteFirst();
-        list.printlist();
-        list.deleteLast();
+        list.reverse();
         list.printlist();
         System.out.println(list.sizeofLL());
     }
