@@ -80,14 +80,35 @@ public class LinkedList {
         }
         this.head=prev;
     }
-    private void mergeList(LinkedList list1, LinkedList list2) {
-//        Node head1=list1.head;
-//        Node head2=list2.head;
-//
-//        while(head1!=null || head2!=null){
-//
-//            if()
-//        }
+    private LinkedList mergeList(LinkedList list1, LinkedList list2) {
+        Node head1=list1.head;
+        Node head2=list2.head;
+
+        LinkedList list=new LinkedList();
+
+
+        while(head1!=null && head2!=null){
+
+            if(head1.data<=head2.data){
+                list.addLast(head1.data);
+                head1=head1.next;
+            }
+            else{
+                list.addLast(head2.data);
+                head2=head2.next;
+            }
+        }
+
+        while(head1!=null){
+            list.addLast(head1.data);
+            head1=head1.next;
+        }
+
+        while(head2!=null){
+            list.addLast(head2.data);
+            head2=head2.next;
+        }
+        return list;
 
 
     }
@@ -115,7 +136,6 @@ public class LinkedList {
 //        list.reverse();
 //        list.printlist();
 
-        LinkedList merge=new LinkedList();
         LinkedList list1=new LinkedList();
         LinkedList list2=new LinkedList();
         list1.addLast(1);
@@ -126,7 +146,9 @@ public class LinkedList {
         list2.addLast(3);
         list2.addLast(4);
 
-        merge.mergeList(list1,list2);
+        LinkedList merge=list1.mergeList(list1,list2);
+        merge.printlist();
+
         System.out.println(list.sizeofLL());
     }
 
