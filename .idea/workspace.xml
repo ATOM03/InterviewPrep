@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4451ceb6-89c0-4c35-852b-40b977e240d3" name="Changes" comment="Working on the Linkedlist.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignStructures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignStructures/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -443,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713709224931</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Working on the Linkedlist.">
+      <option name="closed" value="true" />
+      <created>1713722374373</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1713722374373</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -507,7 +516,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DesignStructures/LinkedList.java</url>
-          <line>148</line>
+          <line>195</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
