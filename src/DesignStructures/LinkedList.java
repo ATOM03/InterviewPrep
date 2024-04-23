@@ -158,6 +158,36 @@ public class LinkedList {
         }
         return prev;
     }
+    private void reorder() {
+        Node slow = head;
+        Node fast = head.next;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+       Node second=slow.next;
+        Node prev=slow.next=null;
+
+        while(second!=null){
+            Node temp=second.next;
+            second.next=prev;
+            prev=second;
+            second=temp;
+        }
+        Node first=head;
+        second=prev;
+
+        while(second!=null){
+            Node temp1=first.next;
+            Node temp2=second.next;
+            first.next=second;
+            second.next=temp1;
+            first=temp1;
+            second=temp2;
+        }
+
+    }
 
     public static void main(String[] args) {
         LinkedList list=new LinkedList();
@@ -196,17 +226,28 @@ public class LinkedList {
 //        LinkedList merge=list1.mergeList(list1,list2);
 //        merge.printlist();
 
-        LinkedList list1=new LinkedList();
-        list.addLast(1);
-        list.addLast(2);
-        list.addLast(2);
-        list.addLast(1);
+//        LinkedList list1=new LinkedList();
+//        list.addLast(1);
+//        list.addLast(2);
+//        list.addLast(2);
+//        list.addLast(1);
+//
+//        System.out.println(list.ispalindrome());
+//
+//        list.printlist();
 
-        System.out.println(list.ispalindrome());
+        LinkedList list1 =new LinkedList();
+        list1.addLast(1);
+        list1.addLast(2);
+        list1.addLast(3);
+        list1.addLast(4);
+        list1.addLast(5);
 
-        list.printlist();
+        list1.printlist();
+        list1.reorder();
+        list1.printlist();
 
-        System.out.println(list.sizeofLL());
+//        System.out.println(list.sizeofLL());
     }
 
 
