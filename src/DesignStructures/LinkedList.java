@@ -125,6 +125,40 @@ public class LinkedList {
         }
         return false;
     }
+    private boolean ispalindrome() {
+        Node slow=head;
+        Node fast=head.next;
+
+        //point is to go to the middle and then reverse the linklist from the middle and compare the starting values and middle(reverse list) values.
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        //we got the middle node;
+        slow=reverse(slow.next);
+        fast=head;
+        while(slow!=null && fast!=null){
+            if(slow.data!=fast.data)
+                return false;
+            slow=slow.next;
+            fast=fast.next;
+        }
+        return true;
+    }
+
+    private Node reverse(Node head) {
+        Node prev=null;
+        Node next=null;
+        Node curr=head;
+        while(curr!=null){
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        return prev;
+    }
+
     public static void main(String[] args) {
         LinkedList list=new LinkedList();
 
@@ -149,18 +183,28 @@ public class LinkedList {
 //        list.reverse();
 //        list.printlist();
 
+//        LinkedList list1=new LinkedList();
+//        LinkedList list2=new LinkedList();
+//        list1.addLast(1);
+//        list1.addLast(2);
+//        list1.addLast(4);
+//
+//        list2.addLast(1);
+//        list2.addLast(3);
+//        list2.addLast(4);
+//
+//        LinkedList merge=list1.mergeList(list1,list2);
+//        merge.printlist();
+
         LinkedList list1=new LinkedList();
-        LinkedList list2=new LinkedList();
-        list1.addLast(1);
-        list1.addLast(2);
-        list1.addLast(4);
+        list.addLast(1);
+        list.addLast(2);
+        list.addLast(2);
+        list.addLast(1);
 
-        list2.addLast(1);
-        list2.addLast(3);
-        list2.addLast(4);
+        System.out.println(list.ispalindrome());
 
-        LinkedList merge=list1.mergeList(list1,list2);
-        merge.printlist();
+        list.printlist();
 
         System.out.println(list.sizeofLL());
     }
