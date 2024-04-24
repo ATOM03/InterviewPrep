@@ -188,7 +188,21 @@ public class LinkedList {
         }
 
     }
+    private void deleteNthNode(LinkedList list1, int i) {
+     Node dummy=list1.head;
+     Node left=list1.head;
+     Node right=list1.head;
 
+     while(i>0){
+         right=right.next;
+         i--;
+     }
+     while(right!=null){
+         left=left.next;
+         right=right.next;
+     }
+     left.next=left.next.next;
+    }
     public static void main(String[] args) {
         LinkedList list=new LinkedList();
 
@@ -236,15 +250,24 @@ public class LinkedList {
 //
 //        list.printlist();
 
-        LinkedList list1 =new LinkedList();
+//        LinkedList list1 =new LinkedList();
+//        list1.addLast(1);
+//        list1.addLast(2);
+//        list1.addLast(3);
+//        list1.addLast(4);
+//        list1.addLast(5);
+//
+//        list1.printlist();
+//        list1.reorder();
+
+        LinkedList list1=new LinkedList();
         list1.addLast(1);
         list1.addLast(2);
         list1.addLast(3);
         list1.addLast(4);
         list1.addLast(5);
-
         list1.printlist();
-        list1.reorder();
+        list1.deleteNthNode(list1,3);
         list1.printlist();
 
 //        System.out.println(list.sizeofLL());
