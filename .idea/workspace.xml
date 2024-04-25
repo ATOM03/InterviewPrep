@@ -58,45 +58,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BestTimetoStockamdInvest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DesignHashMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EncodeAndDecodeStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GroupAnagrams.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestConsecutiveSquence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MajorityElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumSubArraysum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Maximum_SubArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MostFrequentEvenNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Palindrome.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PeakElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PriorityQueque.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductOfArrayExceptSelf.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicateFromsortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseAArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseAString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RomanToInteger.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SegregateArrays.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.SortAnArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreeSum_TwoPointer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.findDuplicateArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.topKFrequentElement.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;LinkList&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/InterviewPrepartion&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BestTimetoStockamdInvest.executor": "Run",
+    "Application.ContainerWithMostWater.executor": "Run",
+    "Application.DesignHashMap.executor": "Run",
+    "Application.EncodeAndDecodeStrings.executor": "Run",
+    "Application.GroupAnagrams.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.LongestConsecutiveSquence.executor": "Run",
+    "Application.MajorityElement.executor": "Run",
+    "Application.MaximumSubArraysum.executor": "Run",
+    "Application.Maximum_SubArray.executor": "Run",
+    "Application.MostFrequentEvenNumber.executor": "Run",
+    "Application.Palindrome.executor": "Debug",
+    "Application.PeakElement.executor": "Run",
+    "Application.PriorityQueque.executor": "Run",
+    "Application.ProductOfArrayExceptSelf.executor": "Run",
+    "Application.RemoveDuplicateFromsortedArray.executor": "Run",
+    "Application.ReverseAArray.executor": "Run",
+    "Application.ReverseAString.executor": "Run",
+    "Application.RomanToInteger.executor": "Run",
+    "Application.SegregateArrays.executor": "Debug",
+    "Application.SortAnArray.executor": "Run",
+    "Application.ThreeSum_TwoPointer.executor": "Run",
+    "Application.ValidPalindrome.executor": "Run",
+    "Application.findDuplicateArray.executor": "Run",
+    "Application.topKFrequentElement.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "LinkList",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/InterviewPrepartion",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.LinkedList">
     <configuration name="DesignHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.DesignHashMap" />
@@ -468,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713895595775</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Working on the Linkedlist.">
+      <option name="closed" value="true" />
+      <created>1713983017351</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1713983017351</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -532,13 +540,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DesignStructures/LinkedList.java</url>
-          <line>239</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/DesignStructures/LinkedList.java</url>
-          <line>269</line>
-          <option name="timeStamp" value="13" />
+          <line>289</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,5 +1,7 @@
 package DesignStructures;
 
+import java.util.List;
+
 public class LinkedList {
 
     Node head;
@@ -190,7 +192,7 @@ public class LinkedList {
     }
     private void deleteNthNode(LinkedList list1, int i) {
      Node dummy=list1.head;
-     Node left=list1.head;
+     Node left=dummy;
      Node right=list1.head;
 
      while(i>0){
@@ -202,6 +204,17 @@ public class LinkedList {
          right=right.next;
      }
      left.next=left.next.next;
+    }
+    private void deleteVal(LinkedList list1, int i) {
+       Node dummy=new Node(0);
+       Node curr=dummy;
+       dummy.next=head;
+
+       while(curr.next!=null){
+           if(curr.next.data==i) curr.next=curr.next.next;
+           else
+               curr=curr.next;
+       }
     }
     public static void main(String[] args) {
         LinkedList list=new LinkedList();
@@ -263,12 +276,23 @@ public class LinkedList {
         LinkedList list1=new LinkedList();
         list1.addLast(1);
         list1.addLast(2);
+        list1.addLast(6);
         list1.addLast(3);
         list1.addLast(4);
         list1.addLast(5);
+        list1.addLast(6);
+//        list1.addLast(7);
+//        list1.addLast(7);
+//        list1.addLast(7);
+//        list1.addLast(7);
         list1.printlist();
-        list1.deleteNthNode(list1,3);
+
+        list1.deleteVal(list1,6);
         list1.printlist();
+//        list1.deleteNthNode(list1,3);
+
+
+
 
 //        System.out.println(list.sizeofLL());
     }
