@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4451ceb6-89c0-4c35-852b-40b977e240d3" name="Changes" comment="Working on the Linkedlist.">
+      <change afterPath="$PROJECT_DIR$/src/Recursion/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Recursion/SubsequenceOfString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignStructures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignStructures/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
     <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="LinkList" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -64,6 +65,7 @@
     "Application.ContainerWithMostWater.executor": "Run",
     "Application.DesignHashMap.executor": "Run",
     "Application.EncodeAndDecodeStrings.executor": "Run",
+    "Application.Factorial.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.LongestConsecutiveSquence.executor": "Run",
@@ -81,13 +83,14 @@
     "Application.RomanToInteger.executor": "Run",
     "Application.SegregateArrays.executor": "Debug",
     "Application.SortAnArray.executor": "Run",
+    "Application.SubsequenceOfString.executor": "Run",
     "Application.ThreeSum_TwoPointer.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
     "Application.findDuplicateArray.executor": "Run",
     "Application.topKFrequentElement.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "LinkList",
+    "git-widget-placeholder": "Recursion",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/InterviewPrepartion",
@@ -97,12 +100,25 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.SubsequenceOfString">
     <configuration name="DesignHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.DesignHashMap" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.Factorial" />
+      <module name="InterviewPrepartion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsinaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.ReverseWordsinaString" />
+    <configuration name="SubsequenceOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion.SubsequenceOfString" />
       <module name="InterviewPrepartion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sorting.SelectionSort" />
-      <module name="InterviewPrepartion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sorting.*" />
+          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,19 +166,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Factorial" />
+      <item itemvalue="Application.SubsequenceOfString" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.findDuplicateArray" />
       <item itemvalue="Application.DesignHashMap" />
-      <item itemvalue="Application.ReverseWordsinaString" />
-      <item itemvalue="Application.SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubsequenceOfString" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.findDuplicateArray" />
         <item itemvalue="Application.DesignHashMap" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.ReverseWordsinaString" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713983017351</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Working on the Linkedlist.">
+      <option name="closed" value="true" />
+      <created>1714052067505</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1714052067505</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
