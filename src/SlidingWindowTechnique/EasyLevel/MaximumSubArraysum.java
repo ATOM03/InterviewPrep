@@ -1,4 +1,4 @@
-package SlidingWindowTechnique;
+package SlidingWindowTechnique.EasyLevel;
 
 public class MaximumSubArraysum {
     public static void main(String[] args) {

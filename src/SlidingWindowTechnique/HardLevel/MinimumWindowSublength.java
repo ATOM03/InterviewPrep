@@ -1,4 +1,4 @@
-package SlidingWindowTechnique;
+package SlidingWindowTechnique.HardLevel;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package SlidingWindowTechnique;
+package SlidingWindowTechnique.MediumLevel;
 
 public class MinimumSubArrayLength {
 
