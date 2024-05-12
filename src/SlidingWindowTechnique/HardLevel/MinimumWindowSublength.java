@@ -35,6 +35,7 @@ public class MinimumWindowSublength {
                 if(end-begin<length) {
                     length = end - begin;
                     ans = s.substring(begin, end);
+                    System.out.println(ans);
                 }
 
                 char beginChar=s.charAt(begin);
