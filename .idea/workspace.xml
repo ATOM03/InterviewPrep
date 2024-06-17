@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4451ceb6-89c0-4c35-852b-40b977e240d3" name="Changes" comment="Working on the Linkedlist.">
-      <change afterPath="$PROJECT_DIR$/src/Recursion/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Recursion/SubsequenceOfString.java" afterDir="false" />
+    <list default="true" id="0934debd-f470-47af-85a5-5b03fe729578" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/DesignStructures/DesignStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/DesignStructures/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/BestTimetoStockamdInvest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/ContainsDuplicateII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/MaximumAverageSalary1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/MaximumSubArraysum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/HardLevel/MinimumWindowSublength.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/FindAllAnagramsInAString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/FruitsAndBasket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/LongestRepeatingCharacterReplacement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/LongestSubstringWithKdistinctCharacters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/LongestSubstringWithoutRepeatingCharacter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/MaxConsecutiveOneIII.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/MinimumSubArrayLength.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/PermutationInString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/QuequeWithEnqueueEfficient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/QueueUsingStacks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/QueuewithdequeueEfficient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/ValidParentheses.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchAnElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,103 +38,35 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="LinkList" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;ATOM03&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ATOM03/InterviewPrep.git&quot;,
-    &quot;accountId&quot;: &quot;1c38f518-9aa7-4544-81a2-39ed24a5ae88&quot;
-  }
-}</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Arrays/findDuplicateArray.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Strings/ValidateIP.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Strings/WorldPattern.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Strings/ReverseWordsinaString.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2DQdw2PEx7sCpQrorrelJT0b7Oy" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2i0rKlUjqu6ZZosxZ7EAhRlx4OQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BestTimetoStockamdInvest.executor": "Run",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.DesignHashMap.executor": "Run",
-    "Application.EncodeAndDecodeStrings.executor": "Run",
-    "Application.Factorial.executor": "Run",
-    "Application.GroupAnagrams.executor": "Run",
-    "Application.LinkedList.executor": "Run",
-    "Application.LongestConsecutiveSquence.executor": "Run",
-    "Application.MajorityElement.executor": "Run",
-    "Application.MaximumSubArraysum.executor": "Run",
-    "Application.Maximum_SubArray.executor": "Run",
-    "Application.MostFrequentEvenNumber.executor": "Run",
-    "Application.Palindrome.executor": "Debug",
-    "Application.PeakElement.executor": "Run",
-    "Application.PriorityQueque.executor": "Run",
-    "Application.ProductOfArrayExceptSelf.executor": "Run",
-    "Application.RemoveDuplicateFromsortedArray.executor": "Run",
-    "Application.ReverseAArray.executor": "Run",
-    "Application.ReverseAString.executor": "Run",
-    "Application.RomanToInteger.executor": "Run",
-    "Application.SegregateArrays.executor": "Debug",
-    "Application.SortAnArray.executor": "Run",
-    "Application.SubsequenceOfString.executor": "Run",
-    "Application.ThreeSum_TwoPointer.executor": "Run",
-    "Application.ValidPalindrome.executor": "Run",
-    "Application.findDuplicateArray.executor": "Run",
-    "Application.topKFrequentElement.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "Application.SearchAnElement.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Recursion",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/InterviewPrepartion",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "git-widget-placeholder": "Binary-Search",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SubsequenceOfString">
+  <component name="RunManager" selected="Application.SearchAnElement">
     <configuration name="DesignHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.DesignHashMap" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.Factorial" />
-      <module name="InterviewPrepartion" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +80,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="DesignStructures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchAnElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.SearchAnElement" />
+      <module name="InterviewPrepartion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,329 +126,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Factorial" />
-      <item itemvalue="Application.SubsequenceOfString" />
-      <item itemvalue="Application.LinkedList" />
-      <item itemvalue="Application.findDuplicateArray" />
-      <item itemvalue="Application.DesignHashMap" />
-    </list>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SubsequenceOfString" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.findDuplicateArray" />
+        <item itemvalue="Application.SearchAnElement" />
         <item itemvalue="Application.DesignHashMap" />
+        <item itemvalue="Application.findDuplicateArray" />
+        <item itemvalue="Application.LinkedList" />
+        <item itemvalue="Application.SubsequenceOfString" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4451ceb6-89c0-4c35-852b-40b977e240d3" name="Changes" comment="" />
-      <created>1660635480312</created>
+      <changelist id="0934debd-f470-47af-85a5-5b03fe729578" name="Changes" comment="" />
+      <created>1718638274780</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1660635480312</updated>
+      <updated>1718638274780</updated>
     </task>
-    <task id="LOCAL-00001" summary="Working on the DesginHashMap">
-      <option name="closed" value="true" />
-      <created>1710268260017</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1710268260017</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1710271475745</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1710271475745</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1710426270457</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1710426270457</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1710662602425</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1710662602425</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1710858348444</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1710858348444</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1710866577701</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1710866577701</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1710867325842</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1710867325842</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1710963033546</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1710963033546</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711127420998</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1711127420998</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711181296824</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1711181296824</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711470949859</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1711470949859</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711477840772</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1711477840772</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711642766834</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1711642766834</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711649269170</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1711649269170</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711736526048</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1711736526048</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711737949457</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1711737949457</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Working on the Array.">
-      <option name="closed" value="true" />
-      <created>1711822510400</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1711822510400</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Working on the Strings.">
-      <option name="closed" value="true" />
-      <created>1711824304962</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1711824304962</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1711990738078</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1711990738079</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712074392886</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1712074392886</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712082031453</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1712082031453</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712330204817</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1712330204817</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712340317978</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1712340317978</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712670248509</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1712670248509</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712670530191</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1712670530191</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712671698250</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1712671698250</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712690504757</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1712690504757</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712757356755</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1712757356755</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Working on the Arrays.">
-      <option name="closed" value="true" />
-      <created>1712772950879</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1712772950879</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1713192305274</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1713192305274</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1713199362122</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1713199362122</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1713709224931</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1713709224931</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1713722374373</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1713722374373</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1713881754771</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1713881754771</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1713895595775</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1713895595775</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1713983017351</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1713983017351</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Working on the Linkedlist.">
-      <option name="closed" value="true" />
-      <created>1714052067505</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1714052067505</updated>
-    </task>
-    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,36 +163,11 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Working on the DesginHashMap" />
-    <MESSAGE value="Working on the Array." />
-    <MESSAGE value="Working on the Strings." />
-    <MESSAGE value="Working on the Arrays." />
-    <MESSAGE value="Working on the Linkedlist." />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on the Linkedlist." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
