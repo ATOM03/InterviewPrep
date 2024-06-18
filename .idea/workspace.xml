@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0934debd-f470-47af-85a5-5b03fe729578" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/DesignStructures/DesignStack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/DesignStructures/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/BestTimetoStockamdInvest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/ContainsDuplicateII.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/MaximumAverageSalary1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/EasyLevel/MaximumSubArraysum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/HardLevel/MinimumWindowSublength.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/FindAllAnagramsInAString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/FruitsAndBasket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/LongestRepeatingCharacterReplacement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/LongestSubstringWithKdistinctCharacters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/LongestSubstringWithoutRepeatingCharacter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/MaxConsecutiveOneIII.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/MinimumSubArrayLength.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/SlidingWindowTechnique/MediumLevel/PermutationInString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/QuequeWithEnqueueEfficient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/QueueUsingStacks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/QueuewithdequeueEfficient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/InterviewPrepartion/Stacks/ValidParentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SearchAnElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="0934debd-f470-47af-85a5-5b03fe729578" name="Changes" comment="Worked on the Binary Search problems">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/SquareRoot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +28,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2i0rKlUjqu6ZZosxZ7EAhRlx4OQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -56,12 +39,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.SearchAnElement.executor": "Run",
+    "Application.SquareRoot.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Binary-Search",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SearchAnElement">
+  <component name="RunManager" selected="Application.SquareRoot">
     <configuration name="DesignHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Arrays.DesignHashMap" />
       <extension name="coverage">
@@ -100,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubsequenceOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.SubsequenceOfString" />
+    <configuration name="SquareRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.SquareRoot" />
       <module name="InterviewPrepartion" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareRoot" />
         <item itemvalue="Application.SearchAnElement" />
         <item itemvalue="Application.DesignHashMap" />
         <item itemvalue="Application.findDuplicateArray" />
         <item itemvalue="Application.LinkedList" />
-        <item itemvalue="Application.SubsequenceOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +140,15 @@
       <option name="presentableId" value="Default" />
       <updated>1718638274780</updated>
     </task>
+    <task id="LOCAL-00001" summary="Worked on the Binary Search problems">
+      <option name="closed" value="true" />
+      <created>1718638881010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718638881010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +161,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Worked on the Binary Search problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on the Binary Search problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,6 +193,16 @@
           <url>file://$PROJECT_DIR$/src/DesignStructures/LinkedList.java</url>
           <line>289</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/SearchAnElement.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/SquareRoot.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
