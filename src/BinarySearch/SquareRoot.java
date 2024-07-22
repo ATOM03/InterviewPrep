@@ -4,7 +4,7 @@ public class SquareRoot {
     public static void main(String[] args) {
         int num=8;
         System.out.println(squareroot(num));
-    }
+     }
 
     private static int squareroot(int num) {
         int left=0,right=num,ans=0;
